@@ -9,33 +9,39 @@
     <style>
         body {
             background-color: lightgrey;
+            margin: 0;
+          
         }
         
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            padding: 2px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
         }
             
-        @media screen and (min-width: 320px) and (max-width: 480px) {
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 399px) {
                 .grid {
                     grid-template-columns: 1fr;
-                    justify-content: center;
                 }
         }
 
        @media screen and (min-width: 400px) and (max-width: 799px) {
             .grid {
                 grid-template-columns: 1fr 1fr;
-                justify-content: center;
             }
         }
         
         @media screen and (min-width: 800px) {
                 .grid {
                     grid-template-columns: 1fr 1fr 1fr 1fr;
-                    justify-content: center;
-                }
+            }
         }
 
     </style>
@@ -45,27 +51,18 @@
 </head>
 <body>
     <div class="grid">
-        
-        <div><img src="https://i.picsum.photos/id/55/300/300.jpg" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
-
-        
-
-    </div>
+        <div><img src="https://picsum.photos/200/100"/></div>
+        <div><img src="https://picsum.photos/200/375"/></div>
+        <div><img src="https://picsum.photos/200/150"/></div>
+        <div><img src="https://picsum.photos/200/400"/></div>
+        <div><img src="https://picsum.photos/200/215"/></div>
+        <div><img src="https://picsum.photos/200/315"/></div>
+        <div><img src="https://picsum.photos/200/200"/></div>
+        <div><img src="https://picsum.photos/200/255"/></div>
+        <div><img src="https://picsum.photos/200/300"/></div>
+        <div><img src="https://picsum.photos/200/175"/></div>
+        <div><img src="https://picsum.photos/200/225"/></div>
+        <div><img src="https://picsum.photos/200/250"/></div>
     
 </body>
 </html>
