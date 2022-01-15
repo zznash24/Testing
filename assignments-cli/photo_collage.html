@@ -6,24 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Bombs!</title>
 
-    <stlye>
+    <style>
         body {
             background-color: lightgrey;
         }
         
         .grid {
-
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding: 5px;
+        }
+            
+        @media screen and (min-width: 320px) and (max-width: 480px) {
+                .grid {
+                    grid-template-columns: 1fr;
+                    justify-content: center;
+                }
         }
 
+       @media screen and (min-width: 400px) and (max-width: 799px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+                justify-content: center;
+            }
+        }
+        
+        @media screen and (min-width: 800px) {
+                .grid {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    justify-content: center;
+                }
+        }
 
-
-
-    </stlye>
+    </style>
     
 
-    }
+    
 </head>
 <body>
+    <div class="grid">
+        
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+        <div><img src="https://i.picsum.photos/id/55/200/300.jpg?hmac=VjTl-6Y6NNyUWof_G17-KlocVl0QuUoxpir1beSTl8A" /></div>
+
+        
+
+    </div>
     
 </body>
 </html>
