@@ -12,5 +12,5 @@ function sum(x, y) {
       return 80;
     }
     
-    console.log(sortaSum(30,20));
-    console.log(sortaSum(90,80));
+    console.log(sum(30,20));
+    console.log(sum(90,80));
