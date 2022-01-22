@@ -38,11 +38,14 @@
 function isVowel(letter) {
 const vowel = [`a, e, i, o, u, y`]
     if(vowel.includes(letter)){
-return "true"
+        return "true"
     }
-    else(){
+    else {
         return "false"
     }
+
+
+
 }
 
 console.log(isVowel("a")) // true  
