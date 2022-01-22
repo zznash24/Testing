@@ -35,20 +35,14 @@
 //         this.accountType = account_type;
 //     }
 // }
-let vowel = [`a, e, i, o, u, y`]
-
-// function isVowel(letter){
-
-//     if(letter == vowel) {
-//         return true;
-//     }
-//     else(letter != vowel) {
-//         return false;}
-//     }
-// }
-
 function isVowel(letter) {
+const vowel = [`a, e, i, o, u, y`]
+    if(vowel.includes(letter)){
 return "true"
+    }
+    else(){
+        return "false"
+    }
 }
 
 console.log(isVowel("a")) // true  
