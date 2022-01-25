@@ -36,7 +36,7 @@
 //     }
 // }
 function isVowel(letter) {
-const vowel = [`a, e, i, o, u, y`]
+let vowel = [`a`, `e`, `i`, `o`, `u`, `y`]
     if(vowel.includes(letter)){
         return "true"
     }
